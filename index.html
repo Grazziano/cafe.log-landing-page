@@ -9,6 +9,13 @@
       content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -25,41 +32,74 @@
     </header>
 
     <main>
-      <section>
-        <header>
-          <span>novidade</span>
-          <h1>Encontre a receita perfeita!</h1>
-          <hr />
-          <h2>
-            Explore dezenas de variações da bebida favorita entre os devs ao
-            redor mundo!
-          </h2>
-        </header>
-        <div>
-          <figure><img src="./assets/images/hero-banner-1.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-2.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-3.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-4.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-5.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-6.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-7.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-8.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-9.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-10.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-11.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-12.jpg" alt="" /></figure>
-          <figure><img src="./assets/images/hero-banner-13.jpg" alt="" /></figure>
+      <div class="container">
+        <section class="hero">
+          <header class="hero-header">
+            <span class="emphasis brown">novidade</span>
+            <h1>Encontre a receita perfeita!</h1>
+            <hr />
+            <h2 class="hero-subtitle">
+              Explore dezenas de variações da bebida favorita entre os devs ao
+              redor mundo!
+            </h2>
+          </header>
+          <div class="hero-banners">
+            <figure>
+              <img src="./assets/images/hero-banner-1.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-2.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-3.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-4.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-5.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-6.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-7.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-8.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-9.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-10.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-11.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-12.jpg" alt="" />
+            </figure>
+            <figure>
+              <img src="./assets/images/hero-banner-13.jpg" alt="" />
+            </figure>
+          </div>
+        </section>
+      </div>
+
+      <section class="btn-container">
+        <button type="button">
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
       </section>
 
-      <section>
-        <button><img src="./assets/images/Button.svg" alt="" /></button>
-      </section>
-
-      <section>
-        <header>
-          <span>receitas</span>
-          <h2>Confira as últimas receitas</h2>
-          <p>Dê uma olhada nas receitas mais amadas!</p>
+      <section class="recipes">
+        <header class="recipes-header">
+          <span class="emphasis brown">receitas</span>
+          <h2 class="recipes-title">Confira as últimas receitas</h2>
+          <p class="recipes-subtitle">
+            Dê uma olhada nas receitas mais amadas!
+          </p>
         </header>
 
         <div>
@@ -73,7 +113,10 @@
             </header>
             <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
             <div>
-              <img src="https://avatars.githubusercontent.com/u/28796889?v=4" alt="">
+              <img
+                src="https://avatars.githubusercontent.com/u/28796889?v=4"
+                alt=""
+              />
               <span>Grazziano</span>
             </div>
           </div>
