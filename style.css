@@ -95,6 +95,10 @@ main {
   color: #a45a49;
 }
 
+.yellow {
+  color: #e7a80e;
+}
+
 h1 {
   font-family: Montserrat;
   font-size: 3.5rem;
@@ -138,4 +142,105 @@ button {
   background: #a45a49;
   color: #fff;
   cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1120px;
+  padding: 3rem 2rem;
+  margin: auto;
+}
+
+.recipes-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.recipes-title {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.recipes-subtitle {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.recipe-card-container {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.recipe-card-content {
+  background: #241a1c;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+}
+
+.recipe-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.recipe-card-name {
+  color: #fff2e7;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.recipe-card-rating {
+  color: #756a67;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.recipe-card-description {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.recipe-card-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.recipe-card-author > img {
+  border-radius: 20rem;
+  width: 1.5rem;
+}
+
+.recipe-card-author-name {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
 }
