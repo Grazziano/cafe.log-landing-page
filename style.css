@@ -27,3 +27,33 @@ ul {
 button {
   cursor: pointer;
 }
+
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Teko, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #fff2e780;
+}
+
+.github {
+  color: #fff2e7;
+  font-weight: 600;
+}
